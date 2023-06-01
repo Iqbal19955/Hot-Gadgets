@@ -14,3 +14,38 @@
 .carousel-item{
     margin-bottom: 80px;
 }
+.justify-content-between{
+    margin-top: 150px;
+}
+img{
+    max-width: 100%,important;
+    border: none;
+}
+.footer{
+    margin-top: 100px;
+}
+.footer h2{
+    color: #f37335;
+    font-size: 40px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: 0.25rem;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(189, 182, 182);
+    border: .5px solid rgb(243, 186, 186);
+    border-radius: 10%;
+}
+.btn:hover{
+    background-color: #FDC830;
+    border:none;
+}
